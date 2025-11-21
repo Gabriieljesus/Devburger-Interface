@@ -17,60 +17,39 @@ Componentização, facilitando manutenção e escalabilidade do projeto
 
 A interface inclui:
 
-Página de login/cadastro
+- Página de login/cadastro
 
-Lista de produtos
+- Lista de produtos
 
-Sistema de carrinho
+- Sistema de carrinho
 
-Confirmação de pedido
+- Confirmação de pedido
 
 Feedback visual de ações (alertas, carregamento, erros, etc.)
 
 🧰 Tecnologias Utilizadas
 
-React
+- React
 
-JavaScript
+- JavaScript
 
-HTML5
+- HTML5
 
-CSS3
+- CSS3
 
-Axios para requisições
+- Axios para requisições
 
-Vite como ambiente de desenvolvimento
-
-🚀 Executando o Projeto
-# Instalar as dependências
-npm install
-
-# Rodar o projeto
-npm run dev
-
-
-Ao executar, o projeto abrirá localmente no navegador.
+- Vite como ambiente de desenvolvimento
 
 📦 Integração com o Back-end
 
 A interface se comunica com a API do DevBurger, sendo capaz de:
 
-Buscar produtos
+- Buscar produtos
 
-Enviar pedidos
+- Enviar pedidos
 
-Criar e autenticar usuários
-
-Basta configurar a URL do servidor na aplicação para funcionar corretamente.
-
-📁 Estrutura do Projeto
-src/
-│── components/
-│── pages/
-│── services/
-│── styles/
-│── App.jsx
-│── main.jsx
+- Criar e autenticar usuários
 
 🎯 Objetivo do Projeto
 
