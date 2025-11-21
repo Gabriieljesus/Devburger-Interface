@@ -67,5 +67,3 @@ Desenvolver boas práticas de UI e UX
 
 Gabriel Jesus
 Projeto desenvolvido durante a formação Full Stack no DevClub.
-
-Se quiser, posso també
