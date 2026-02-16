@@ -3,7 +3,7 @@ import { Container } from "./styles";
 export function Footer() {
   return (
     <Container>
-      <p>Desenvolvido por DevClub - 2025 - Todos os direitos reservados</p>
+      <p>Desenvolvido por Gabriel Jesus - 2025</p>
     </Container>
   );
 }
