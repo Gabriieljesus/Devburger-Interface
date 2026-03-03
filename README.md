@@ -1,69 +1,121 @@
-🍔 DevBurger – Interface
+<div align="center">
 
-Este repositório contém a interface do DevBurger, um projeto desenvolvido como parte da minha formação em programação.
-O objetivo do DevBurger é oferecer uma experiência moderna, intuitiva e funcional para pedidos de hambúrgueres, permitindo ao usuário visualizar o cardápio, montar um pedido e acompanhar o processo de compra.
+<img src="https://img.shields.io/badge/status-concluído-brightgreen?style=for-the-badge" />
+<img src="https://img.shields.io/badge/versão-1.0.0-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/licença-MIT-orange?style=for-the-badge" />
 
-🎨 Sobre a Interface
+# 🍔 DevBurger — Interface
 
-A interface foi criada priorizando:
+> Plataforma moderna de pedidos de hambúrgueres com experiência de usuário fluida e design responsivo.
 
-Experiência do usuário (UX) simples e fluida
+[Funcionalidades](#-funcionalidades) • [Tecnologias](#-tecnologias) • [Como rodar](#-como-rodar) • [Integração com API](#-integração-com-a-api) • [Autor](#-autor)
 
-Design moderno e responsivo, funcionando bem tanto no desktop quanto no mobile
+</div>
 
-Navegação clara, com telas organizadas e fáceis de entender
+---
 
-Componentização, facilitando manutenção e escalabilidade do projeto
+## 📸 Visão Geral
 
-A interface inclui:
+O **DevBurger** é um projeto Full Stack desenvolvido durante a formação no DevClub. Esta interface oferece uma experiência moderna e intuitiva para pedidos de hambúrgueres — do cardápio até a confirmação do pedido.
 
-- Página de login/cadastro
+---
 
-- Lista de produtos
+## ✨ Funcionalidades
 
-- Sistema de carrinho
+- 🔐 Login e cadastro de usuários
+- 🍔 Listagem de produtos do cardápio
+- 🛒 Carrinho de compras interativo
+- ✅ Confirmação de pedido
+- 💬 Feedback visual de ações (alertas, loading, erros)
+- 📱 Layout responsivo para mobile e desktop
 
-- Confirmação de pedido
+---
 
-Feedback visual de ações (alertas, carregamento, erros, etc.)
+## 🧰 Tecnologias
 
-🧰 Tecnologias Utilizadas
+| Tecnologia | Finalidade |
+|-----------|-----------|
+| ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) | Construção da interface |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | Lógica da aplicação |
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | Estrutura das páginas |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) | Estilização |
+| ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white) | Requisições HTTP |
+| ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white) | Ambiente de desenvolvimento |
 
-- React
+---
 
-- JavaScript
+## 🚀 Como rodar
 
-- HTML5
+### Pré-requisitos
 
-- CSS3
+- Node.js instalado
+- API do DevBurger rodando ([ver repositório da API](https://github.com/Gabriieljesus/Devburger-Api))
 
-- Axios para requisições
+### Instalação
 
-- Vite como ambiente de desenvolvimento
+```bash
+# Clone o repositório
+git clone https://github.com/Gabriieljesus/Devburger-Interface
 
-📦 Integração com o Back-end
+# Acesse a pasta
+cd Devburger-Interface
 
-A interface se comunica com a API do DevBurger, sendo capaz de:
+# Instale as dependências
+npm install
 
-- Buscar produtos
+# Inicie o projeto
+npm run dev
+```
 
-- Enviar pedidos
+Acesse em: `http://localhost:5173`
 
-- Criar e autenticar usuários
+---
 
-🎯 Objetivo do Projeto
+## 🔗 Integração com a API
 
-Além de aplicar conceitos da formação, o DevBurger me ajudou a:
+A interface consome a API do DevBurger para:
 
-Consolidar conhecimentos de desenvolvimento web
+- 📦 Buscar produtos do cardápio
+- 🛒 Enviar e gerenciar pedidos
+- 👤 Criar e autenticar usuários
 
-Criar um projeto completo com front-end e back-end
+> Repositório da API: [Devburger-Api](https://github.com/Gabriieljesus/Devburger-Api)
 
-Organizar melhor código, fluxo e responsabilidades entre componentes
+---
 
-Desenvolver boas práticas de UI e UX
+## 📁 Estrutura do Projeto
 
-🧑‍💻 Autor
+```
+src/
+├── components/     # Componentes reutilizáveis
+├── pages/          # Páginas da aplicação
+├── services/       # Configuração do Axios e chamadas à API
+├── styles/         # Estilos globais
+└── main.jsx        # Entrada da aplicação
+```
 
-Gabriel Jesus
-Projeto desenvolvido durante a formação Full Stack no DevClub.
+---
+
+## 🎯 O que aprendi com esse projeto
+
+- Construção de um projeto Full Stack completo
+- Componentização e organização de código em React
+- Integração de front-end com API REST
+- Boas práticas de UI/UX
+- Gerenciamento de estado e fluxo de dados
+
+---
+
+## 👨‍💻 Autor
+
+<div align="center">
+
+**Gabriel Jesus**
+
+Desenvolvido durante a formação Full Stack no **DevClub**
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gabriieljesus)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrieljesus-silva)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://gabriel-jesus-portfoliodev.vercel.app/)
+
+</div>
